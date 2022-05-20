@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+# The goal in this exercise is to write a functions that would cache the inverse of a matrix for "makeCacheMatrix" and "cacheSolve."
 library(MASS)                                   # used to calculate inverse for non square
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -26,7 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+#This is used to get the cache data
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         inv <- x$getInverse()
